@@ -16,8 +16,8 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <TextBlock Name="Log" Grid.Row="1" HorizontalAlignment="Center" Text="Логин" FontSize="20" Height="30" Width="60"/>
-        <TextBox Name="LogIn" Grid.Row="2" HorizontalAlignment="Center" FontSize="20" Height="30" Width="150">admin</TextBox>
+        <TextBox Name="LogIn" Grid.Row="2" HorizontalAlignment="Center" FontSize="20" Height="30" Width="150" TextChanged="LogIn_TextChanged">admin</TextBox>
         <TextBlock Name="Password" Grid.Row="3" HorizontalAlignment="Center" Text="Пароль" FontSize="20" Height="30" Width="70"/>
-        <TextBox Name="PasswordIn" Grid.Row="4" HorizontalAlignment="Center" FontSize="20" Height="30" Width="150">admin</TextBox>
+        <TextBox Name="PasswordIn" Grid.Row="4" HorizontalAlignment="Center" FontSize="20" Height="30" Width="150" TextChanged="PasswordIn_TextChanged">admin</TextBox>
     </Grid>
 </Window>
