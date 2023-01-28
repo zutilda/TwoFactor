@@ -24,5 +24,10 @@ namespace TwoFactor
         {
             InitializeComponent();
         }
+        private void LogIn_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+      
     }
 }
